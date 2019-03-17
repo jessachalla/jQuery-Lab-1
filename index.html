@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Table Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1>Table Finder</h1>
+        <span>Pick your table now</span>
+
+        <div id="floorPlan" class="white-box">
+            <div id="1" class="circle available">1</div>
+            <div id="2" class="circle reserved">2</div>
+            <div id="3" class="circle available">3</div>
+            <div id="4" class="circle available">4</div>
+            <div id="5" class="circle available">5</div>
+            <div id="6" class="circle reserved">6</div>
+            <div id="7" class="circle available">7</div>
+            <div id="8" class="circle available">8</div>
+            <div id="9" class="circle available">9</div>
+        </div>
+
+
+        <div id="form" class="white-form">
+                <button id="x">X</button>
+                <h3>New Reservation</h3>
+                <span>Table Number:</span>
+                <span id=tableNumber></span>
+                <div class="input-container">
+                    <label for="name-input"></label>
+                    <input id="name-input" type="text" placeholder="Name for Reservation" />
+                </div>
+                <div class="input-container">
+                    <label for="phone-number-input"></label>
+                    <input id="phone-number-input" type="text" placeholder="Phone Number" />
+                </div>
+                <div class="input-container">
+                    <label for="reservation-input"> </label>
+                    <input id="reservation-input" type="text" placeholder="Number of People in Your Party" />
+                </div>
+                <div class="loginButton">
+                    <button id="saveButton" class="save" type="submit"> SAVE </button>
+                </div>
+        </div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
